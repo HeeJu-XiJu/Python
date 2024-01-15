@@ -1,8 +1,24 @@
-# 짱구, 짱아 게임 (like 포켓몬)
+# 📍 짱구게임
+# : 클래스의 개념 및 상속의 이해를 위해 연습으로 구현해본 간단한 랜덤게임
+
+# ✅ 기본 구조
+# Class Character
+# def attack
+# def check_hp
+# Class Boy : Character 상속
+# def boy_attack1
+# def boy_attack2
+# Class Girl : Character 상속
+# def girl_attack1
+# def girl_attack2
+
+# ✅ 기본 룰
 # 체력 : 나이 * 10
-# 기본 데미지 남 : 7 여 : 5
-# 추가 데미지 남 : 랜덤하게 액션가면공격 (+2) 여 : 랜덤하게 토끼 공격 (+5)
-# 랜덤하게 짱구, 짱아 중 소리를 지르면 짱구엄마가 나타나 둘다 죽음(비김)
+# 기본 데미지 남 : 7
+# 여 : 5
+# 추가 데미지 남 : 랜덤하게 액션가면공격 (+2)
+# 여 : 랜덤하게 토끼 공격 (+5)
+
 
 class Character():
     def __init__(self, name, age, gen):
